@@ -1,12 +1,28 @@
 # Personal Blog
 
-## Description
+This project is a two-page website where users can input and view blog posts. It includes a content form, dynamically rendered blog posts, and a light/dark mode toggle. This project helped me gain practical JavaScript experience, explore the power of the Document Object Model (DOM), and prepare for more advanced tasks.
 
-This project is a two-page website where users can input and view blog posts. It includes a content form, dynamically rendered blog posts, and a light/dark mode toggle. Through this project, you'll gain practical JavaScript experience, explore the power of the Document Object Model (DOM), and prepare for more advanced tasks.
+## Table of Contents
+
+- [Usage](#usage)
+- [Mock Up](#mock-up)
+- [Instructions](#instructions)
+- [Key Features](#key-features)
+- [Technology Stack](#technology-stack)
 
 ## Usage
 
 The application is invoked by opening the `index.html` in a browser.
+
+## Mock-Up
+
+The following images show the web application's appearance and functionality:
+
+![Screenshot](./assets/images/scWebsite.jpg)
+
+![Screenshot](./assets/images/scWebsite2.jpg)
+
+![Screenshot](./assets/images/scWebsite3.jpg)
 
 ## Instructions
 
@@ -30,7 +46,6 @@ The application is invoked by opening the `index.html` in a browser.
 
 * Back Navigation: A "Back" button allows users to return to the landing page for adding more entries.
 
-
 ## Technology Stack
 
 This project uses the following technologies:
@@ -41,9 +56,4 @@ This project uses the following technologies:
 
 * **LocalStorage:** Ensures that blog data is stored persistently between sessions.
 
-## Mock-Up
-
-The following animation demonstrates the application functionality:
-
-![A user adds a blog through a form, then the post appears on the following page.](./assets/100-web-apis-challenge-demo.gif)
 
