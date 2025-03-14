@@ -1,5 +1,7 @@
 # Personal Blog
 
+## Project Overview
+
 This project is a two-page website where users can input and view blog posts. It includes a content form, dynamically rendered blog posts, and a light/dark mode toggle. This project helped me gain practical JavaScript experience, explore the power of the Document Object Model (DOM), and prepare for more advanced tasks.
 
 ## Table of Contents
@@ -19,9 +21,7 @@ The application is invoked by opening the `index.html` in a browser.
 The following images show the web application's appearance and functionality:
 
 ![Screenshot](./assets/images/scWebsite.jpg)
-
 ![Screenshot](./assets/images/scWebsite2.jpg)
-
 ![Screenshot](./assets/images/scWebsite3.jpg)
 
 ## Instructions
@@ -36,24 +36,15 @@ The following images show the web application's appearance and functionality:
 
 ## Key Features
 
-* Blog Creation: A form to input a username, blog title, and blog content, with validation to ensure all fields are filled.
-
-* Data Storage: Blog post data is stored in `localStorage` as JSON, making the posts persistent across sessions.
-
-* Dynamic Blog List: Blog posts are dynamically rendered on the posts page with information such as the title, content, and author.
-
-* Light/Dark Mode Toggle: Users can switch between light and dark modes, and the styles update accordingly.
-
-* Back Navigation: A "Back" button allows users to return to the landing page for adding more entries.
+- **Back Navigation:** A "Back" button allows users to return to the landing page for adding more entries.
+- **Light/Dark Mode Toggle:** Users can switch between light and dark modes, and the styles update accordingly.
+- **Data Storage:** Blog post data is stored in `localStorage` as JSON, making the posts persistent across sessions.
+- **Blog Creation:** A form to input a username, blog title, and blog content, with validation to ensure all fields are filled.
+- **Dynamic Blog List:** Blog posts are dynamically rendered on the posts page with information such as the title, content, and author.
 
 ## Technology Stack
 
 This project uses the following technologies:
-
 * **HTML and CSS:** Structures and styles the landing and posts pages.
-
-* **JavaScript:** Handles form validation, blog data storage in `localStorage`, dynamic content rendering, and light/dark mode logic.
-
 * **LocalStorage:** Ensures that blog data is stored persistently between sessions.
-
-
+* **JavaScript:** Handles form validation, blog data storage in `localStorage`, dynamic content rendering, and light/dark mode logic.
